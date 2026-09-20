@@ -2,18 +2,6 @@ import type { HaloTheme, Niche } from "@/lib/axiom/types";
 
 /**
  * THIS IS THE ONLY FILE YOU EDIT TO MAKE A CLIENT SHOP.
- *
- * 1. Use this template → new repo named after the shop.
- * 2. Replace the object below (or paste Scout's business.ts over it).
- * 3. Set active: true.
- * 4. Deploy that repo. Home = this shop. Desk = /admin PIN 4242.
- *
- * id = lowercase-dashes, no spaces (new-hope-tattoos).
- * niche = "barber" | "tattoo" | "food_truck"
- * halo = "ember" | "ink" | "solstice" | "spectrum"
- *
- * Do not edit the type block above the = { . Only the values.
- * Photos, albums, hours, extra chairs: owner does that in /admin.
  */
 export const BUSINESS: {
   active: boolean;
@@ -37,20 +25,22 @@ export const BUSINESS: {
     kind: "service" | "menu";
   }[];
   posts: string[];
-active: true,
-id: "pap-loco",
-name: "Pap Loco",
-niche: "food_truck",
-tagline: "Book through the night.",
-about: "The owner fills the rest in Desk.",
-halo: "solstice",
-pin: "4242",
-locationName: "",
-locationNote: "",
-heroImage: null,
-team: [
-  { name: "Chair 1", role: "Artist", bio: "Owner replaces this in Desk." },
-  { name: "Chair 2", role: "Artist", bio: "Owner replaces this in Desk." },
-],
-offerings: [],
-posts: [],
+} = {
+  active: true,
+  id: "pap-loco",
+  name: "Pap Loco",
+  niche: "food_truck",
+  tagline: "Book through the night.",
+  about: "The owner fills the rest in Desk.",
+  halo: "solstice",
+  pin: "4242",
+  locationName: "",
+  locationNote: "",
+  heroImage: null,
+  team: [
+    { name: "Chair 1", role: "Artist", bio: "Owner replaces this in Desk." },
+    { name: "Chair 2", role: "Artist", bio: "Owner replaces this in Desk." },
+  ],
+  offerings: [],
+  posts: [],
+};
