@@ -36,7 +36,7 @@ export const BUSINESS: {
   pin: "4242",
   locationName: "",
   locationNote: "",
-  heroImage: null,
+  heroImage: "/hero-tattoo.jpg",
   team: [
     { name: "Chair 1", role: "Artist", bio: "Owner replaces this in Desk." },
     { name: "Chair 2", role: "Artist", bio: "Owner replaces this in Desk." },
