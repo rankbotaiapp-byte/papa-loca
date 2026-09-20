@@ -37,22 +37,20 @@ export const BUSINESS: {
     kind: "service" | "menu";
   }[];
   posts: string[];
-} = {
-  active: false,
-  id: "client-studio",
-  name: "Client Studio",
-  niche: "barber",
-  tagline: "Book through the night.",
-  about: "The owner fills photos, hours, and albums in Desk.",
-  halo: "ember",
-  pin: "4242",
-  locationName: "",
-  locationNote: "",
-  heroImage: null,
-  team: [
-    { name: "Chair 1", role: "Artist", bio: "Owner replaces this in Desk." },
-    { name: "Chair 2", role: "Artist", bio: "Owner replaces this in Desk." },
-  ],
-  offerings: [],
-  posts: [],
-};
+active: true,
+id: "pap-loco",
+name: "Pap Loco",
+niche: "food_truck",
+tagline: "Book through the night.",
+about: "The owner fills the rest in Desk.",
+halo: "solstice",
+pin: "4242",
+locationName: "",
+locationNote: "",
+heroImage: null,
+team: [
+  { name: "Chair 1", role: "Artist", bio: "Owner replaces this in Desk." },
+  { name: "Chair 2", role: "Artist", bio: "Owner replaces this in Desk." },
+],
+offerings: [],
+posts: [],
